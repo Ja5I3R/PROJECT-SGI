@@ -1,0 +1,9 @@
+comando git pull  //bajar los cambios de otra persona
+
+git status //te dira los cambios que tienes que añadir
+git add *
+git status //comprobación de cambios en verde correcto en rojo no ha funcionado el git add *
+git commit -m "//comentario de los cambios"
+git push
+
+comando git pull  //bajar los cambios de otra persona
