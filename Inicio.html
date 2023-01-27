@@ -14,18 +14,18 @@
             font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
 
-        span .titulo {
+        .titulo1 .titulo {
             font-size: 2.25em;
-            border-bottom: 5px solid red;
-            width: 100px;
-            font-weight: bold;       
+            width: 100%;
+            margin-bottom: -1px;
         }
 
         .imagenes {
             width: 100%;
             height: 15em;
         }
-        .transparencia{
+
+        .transparencia {
             width: 100%;
             height: 15em;
         }
@@ -56,9 +56,10 @@
             margin: auto;
             height: 3em;
         }
-        .botonrojo{
-            color:white;
-            background-color:#e20613;
+
+        .botonrojo {
+            color: white;
+            background-color: #e20613;
             text-align: center;
             border: 0.125rem solid #e20613;
             margin: left;
@@ -71,14 +72,29 @@
             padding-left: 10%;
             margin: auto;
         }
+
+        .barra {
+            border-bottom: 5px solid red;
+            margin-bottom: 40px;
+            width: 100px;
+        }
+
+        .leerMas {
+            color: red;
+        }
+        a{
+            text-decoration: none;
+        }
     </style>
 </head>
 
 <body>
     <div class="campañas">
-        <span>
+        <div class="titulo1">
             <h2 class="titulo">CAMPAÑAS</h2>
-        </span>
+            <div class="barra">
+            </div>
+        </div>
         <section>
             <div class="columna">
                 <img class="imagenes" src="./img/susderechosenjuego_2021.png" alt="Sus Derechos">
@@ -87,52 +103,63 @@
                     tratando de conseguir
                     que los niños y niñas que se encuentran en familias
                     con dificultades puedan disfrutar de juegos y juguetes.</p>
+                <a href="#">
+                    <p class="leerMas">Leer más</p>
+                </a>
             </div>
             <div class="columna">
                 <img class="imagenes" src="./img/CR_cabecera_web_corts.jpg" alt="La Fuerza V">
                 <p class="subtitulo">#LafuerzaV</p>
                 <p class="xsize">Descubre una energía inmensa que nace de las personas y está por todas partes.
-                    Descubre la Fuerza del Voluntariado.</p>
+                    Descubre la Fuerza del Voluntariado.</p><br>
+                <a href="#">
+                    <p class="leerMas">Leer más</p>
+                </a>
             </div>
             <div class="columna">
                 <img class="imagenes" src="./img/un-paisaje-en-la-cazuela.jpg" alt="Paisaje en la cazuela">
                 <p class="subtitulo">#UnPaisajeEnLaCazuela</p>
                 <p class="xsize">"Un paisaje en la cazuela” es una serie documental de
-                    Cruz Roja Española para fomentar una alimentación consciente en la Sociedad.</p>
+                    Cruz Roja Española para fomentar una alimentación consciente en la Sociedad.</p><br>
+                <a href="#">
+                    <p class="leerMas">Leer más</p>
+                </a>
             </div>
         </section><br>
         <div class="boton">
             <p>VER MÁS CAMPAÑAS</p>
         </div><br><br><br>
         <article>
-            <img class="transparencia" src="./img/Transparencia_v2.png" alt="Transparencia_v2"><br>
+            <img class="transparencia" src="./img/Transparencia_v2.png" alt="Transparencia_v2"><br><br>
         </article>
-        <span>
+        <div class="titulo1">
             <h2 class="titulo">PROYECTOS PARA DONAR</h2>
-        </span>
+            <div class="barra">
+            </div>
+        </div>
         <section>
-        <div class="columna">
-            <img class="imagenes" src="./img/RUM Atencion migrantes frontera.jpg" alt="Ayuda Ucrania">
-            <p class="subtitulo">Ayuda Crisis en Ucrania</p><br>
-            <div class="botonrojo">
-                <p>DONA</p>
+            <div class="columna">
+                <img class="imagenes" src="./img/RUM Atencion migrantes frontera.jpg" alt="Ayuda Ucrania">
+                <p class="subtitulo">Ayuda Crisis en Ucrania</p><br>
+                <div class="botonrojo">
+                    <p>DONA</p>
+                </div>
             </div>
-        </div>
-        <div class="columna">
-            <img class="imagenes" src="./img/mayores reducida.jpg" alt="Persona mayor">
-            <p class="subtitulo">Ninguna persona mayor sola</p><br>
-            <div class="botonrojo">
-                <p>DONA</p>
+            <div class="columna">
+                <img class="imagenes" src="./img/mayores reducida.jpg" alt="Persona mayor">
+                <p class="subtitulo">Ninguna persona mayor sola</p><br>
+                <div class="botonrojo">
+                    <p>DONA</p>
+                </div>
             </div>
-        </div>
-        <div class="columna">
-            <img class="imagenes" src="./img/49836943871_64305a12b3_o.jpg" alt="Covid">
-            <p class="subtitulo">Plan Responde de Cruz Roja frente al Coronavirus
-            </p>
-            <div class="botonrojo">
-                <p>DONA</p>
+            <div class="columna">
+                <img class="imagenes" src="./img/49836943871_64305a12b3_o.jpg" alt="Covid">
+                <p class="subtitulo">Plan Responde de Cruz Roja frente al Coronavirus
+                </p>
+                <div class="botonrojo">
+                    <p>DONA</p>
+                </div>
             </div>
-        </div>
         </section><br><br><br>
         <div class="boton">
             <p>VER MÁS PROYECTOS</p>
