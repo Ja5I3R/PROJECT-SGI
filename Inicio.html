@@ -1,47 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Cada vez mas cerca de las personas - CruzRoja</title>
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap%27');
+
+        body {
+            font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+        }
+
+        .barra{
+            border-bottom: 5px solid red;
+            width: 70px;
+            
+        }
+        .cabecera {
+            background-image: url("./imagene/Imagen1.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 500px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .textoimagen {
+            position: relative;
+            color: red;
+            font-size: 1.5em;
+            top: 50%;
+            left: 15%;
+        }
+
+        .botonImg {
+            background-color: red;
+            border: 2px solid red;
+            text-align: center;
+            padding: 15px;
+            color: white;
+            font-size: 20px;
+            width: 5em;
+        }
+
+        .botonImg:hover {
+            animation-name: changeColor;
+            animation-duration: 1s;
+        }
+
+        botonVerMas{
+            border: 2px solid red;
+            color: red;
+            text-align: center;
+            padding: 15px;
+            font-size: 20x;
+            width: 5em;
+            margin: auto;
+        }
+
+        .botonVerMas:hover{
+            animation-name: changeColor2;
+            animation-duration: 1s;
+        }
+
+        .verMas{
+            border: 2px solid red;
+            padding: 15px;
+            margin: auto;
+            text-align: center;
+            color: red;
+            width: 200px;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .tituloNoticia{
+            color: black;
+            font-weight: bold;
+        }
+
+        .noticias {
+            width: 80%;
+            margin: auto;
+            padding-left: 10%;
+        }
+
+        .noticiaImg {
+            width: 80%;
+            height: 10em;
+        }
+
+        .noticia{
+            margin-bottom: -1px;
+            font-size: 2.25em;
+        }
+
+        .columna {
+            width: 30%;
+            padding-left: 4%;
+        }
+
+        .actCom {
+            background-color: white;
+            color: red;
+            text-align: center;
+            padding: 10px;
+            display: flex;
+        }
+
+        .leerMas{
+            color: red;
+        }
+
+        .hr{
+            color: grey;
+        }
+
+        .fechaImg {
+            position: relative;
+            margin-left: 2em;
+            padding: 5px;
+            margin-left: 2em;
+            text-align: center;
+            background-color: white;
+            color: black;
+        }
+
+        @keyframes changeColor {
+            from {
+                border: 2px solid red;
+                background-color: red;
+                color: white;
+            }
+
+            to {
+                border: 2px solid black;
+                background-color: black;
+                color: white;
+            }
+        }
+
+        @keyframes changeColor2{
+            from{
+                border: 2px solid red;
+                color: white;
+            } to {
+                border: 2px solid black;
+                color: black;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        <div class="headertop">
-            <a href="#">Contacto</a>
-            <a href="#">Intranet</a>
-            <a href="#">Identificate</a>
-            <a href="#">Sala de prensa</a>
+    <main>
+        <div class="cabecera">
+            <div class="textoimagen">
+                <p>Una respuesta inmediata, <br>directa y cercana ante la crisis</p>
+                <p class="botonImg">Donar aquí</p>
+            </div>
         </div>
-        <div class="headerbottom">
+        <div class="noticias">
             <div>
-                <img src="./img/logo-cabecera.png" alt="logo-principal">
+                <h3 class="noticia">NOTICIAS</h3>
+                <div class = "barra">
+                </div>
             </div>
-            <div class="menu">
-                <a href="#">Que hacemos</a>
-                <a href="#">Colaborado</a>
-                <a href="#">Voluntariado</a>
-                <a href="#">Fórmate</a>
+            <br>
+            <div class="flex">
+                <div class="columna">
+                    <img class="noticiaImg" src="./imagene/flex1.jpg" alt="Noticia1">
+                    <p class="tituloNoticia">
+                        Cruz Roja y LIBERA recogen y analizan más de 15 toneladas de basura [...]
+                    </p>
+                    <p>
+                        Desde hace siete años Cruz Roja y el Proyecto LIBERA llevan a cabo un programa para cuantificar
+                        y clasificar los residuos presentes en las playas, ríos, montes y mares, con el fin de evitar su
+                        deterioro e impulsar la conciencia medioambiental acerca de la necesidad de cuidar y preservar
+                        la naturaleza.
+                    </p>
+                    <br>
+                    <a href="#"><p class="leerMas">Leer más</p></a>                    <hr class = "hr">
+                </div>
+                <div class="columna">
+                    <img class="noticiaImg" src="./imagene/flex2.jpg" alt="Noticia2">
+                    <p class="tituloNoticia">
+                        Cruz Roja Juventud entrega 42.000 juguetes en la campaña de ‘El jugue [...]
+                    </p>
+                    <p>
+                        En los últimos seis meses de 2022 se han recogido y entregado los juegos y juguetes a 36.500
+                        niños y niñas, con especial énfasis en las fiestas de final de año
+                    </p>
+                    <br><br><br><br><br>
+                    <a href="#"><p class="leerMas">Leer más</p></a>                    <hr class="hr">
+                </div>
+                <div class="columna">
+                    <img class="noticiaImg" src="./imagene/flex3.jpg" alt="Noticia3">
+                    <p class="tituloNoticia">
+                        Un 70% de las personas que piden ayuda a Cruz Roja en la post pandemi [...]
+                    </p>
+                    <p>
+                        Extrae sus conclusiones de las ayudas entregadas en el marco del plan Cruz Roja Reacciona, una
+                        ayuda directa para paliar la crisis derivada del conflicto, la COVID-19 y el cambio climático.
+                    </p>
+                    <br><br><br><br>
+                    <a href="#"><p class="leerMas">Leer más</p></a>
+                    <hr class="hr">
+                </div>
             </div>
+            <br>
             <div>
-                <img src="./img/buscar.png" alt="busqueda" class="search">
-                <a href="#" class="button1">Haz voluntariado</a>
-                <a href="#" class="button2">Hazte socio/a</a>
+                <p class="verMas">VER MÁS NOTICIAS</p>
             </div>
         </div>
-    </header>
-    <div class="main-content">
-        <div class="socialSide">
-            <p>Siguenos</p>
-            <hr class="socialLine">
-            <a href="#"><img src="./img/gorjeo.png" alt="twitter"></a>
-            <a href="#"><img src="./img/facebook.png" alt="facebook"></a>
-            <a href="#"><img src="./img/youtube.png" alt="youtube"></a>
-            <a href="#"><img src="./img/instagram.png" alt=""></a>
-            <a href="#"><img src="./img/flickr.png" alt=""></a>
-        </div>
-    </div>
+    </main>
 </body>
+
 </html>
