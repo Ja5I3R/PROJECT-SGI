@@ -27,7 +27,7 @@
             flex-wrap: wrap;
         }
 
-        .textoimagen {
+        .contenidoImagen1 {
             position: relative;
             color: red;
             font-size: 1.5em;
@@ -35,17 +35,47 @@
             left: 15%;
         }
 
-        .botonImg {
+        .textoImagen1 {
+            font-weight:bold;
+        }
+        
+        .botonImg1 {
             background-color: red;
             border: 2px solid red;
             text-align: center;
             padding: 15px;
             color: white;
             font-size: 20px;
-            width: 5em;
+            width: 7em;
         }
 
-        .botonImg:hover {
+        .contenidoImagen2 {
+            position: relative;
+            color: white;
+            font-size: 1.5em;
+            top: 50%;
+            left: 15%;
+        }
+        .textoImagen2 {
+            font-weight:bold;
+        }
+        
+        .botonImg2 {
+            background-color: red;
+            border: 2px solid red;
+            text-align: center;
+            padding: 15px;
+            color: white;
+            font-size: 20px;
+            width: 12em;
+        }
+
+        .botonImg1:hover {
+            animation-name: changeColor;
+            animation-duration: 1s;
+        }
+
+        .botonImg2:hover{
             animation-name: changeColor;
             animation-duration: 1s;
         }
@@ -154,15 +184,42 @@
                 color: black;
             }
         }
+
+        .cruzGris{
+            background-image: url("img/cruzgris.svg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 50px;
+        }
+
+        .numeroBP{
+            color: black;
+            font-weight: bold;
+        }
+        .divPersonasVoluntarias{
+            position: relative;
+            margin-left: 50em;
+        }
+        .numeroPV{
+            color: red;
+        }
+        .edicionPremios{
+            background-image: url("img/edicionpremios.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 500px;
+            display: flex;
+            flex-wrap: wrap;
+        }
     </style>
 </head>
 
 <body>
     <main>
         <div class="cabecera">
-            <div class="textoimagen">
-                <p>Una respuesta inmediata, <br>directa y cercana ante la crisis</p>
-                <p class="botonImg">Donar aquí</p>
+            <div class="contenidoImagen1">
+                <p class = "textoImagen1">Una respuesta inmediata, <br>directa y cercana ante la crisis</p>
+                <p class="botonImg1">DONA AQUÍ</p>
             </div>
         </div>
         <div class="noticias">
@@ -200,7 +257,8 @@
                         niños y niñas, con especial énfasis en las fiestas de final de año
                     </p>
                     <br><br><br><br><br>
-                    <a href="#" class="leerMas">Leer más</a>                    <hr class="hr">
+                    <a href="#" class="leerMas">Leer más</a>                    
+                    <hr class="hr">
                 </div>
                 <div class="columna">
                     <img class="noticiaImg" src="./img/flex3.jpg" alt="Noticia3">
@@ -212,14 +270,36 @@
                         ayuda directa para paliar la crisis derivada del conflicto, la COVID-19 y el cambio climático.
                     </p>
                     <br><br><br><br>
-                    <a href="#" class="leerMas">Leer más</a>                    <hr class="hr">
+                    <a href="#" class="leerMas">Leer más</a>                    
+                    <hr class="hr">
                 </div>
             </div>
             <br>
             <div>
                 <p class="verMas">VER MÁS NOTICIAS</p>
             </div>
+            <div class = "cruzGris">
+                <div>
+                    <h3 class = "numberoPB">11.589.787</h3>
+                    <div>
+                    <p>Personas beneficiarias al año</p>
+                    </div>
+                </div>
+                <div class = "divPersonasVoluntarias">
+                    <h3 class = "numeroPV">231.053</h3>
+                    <div>
+                        <p>Personas voluntarias</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class = "edicionPremios">
+            <div class="contenidoImagen2">
+                <p class = "textoImagen2">VII Edición de los Premios de Tecnología Humanitaria</p>
+                <p class="botonImg2">¡MÁS INFORMACIÓN!</p>
+            </div>
+        </div>
+        
     </main>
 </body>
 
