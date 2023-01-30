@@ -462,3 +462,37 @@ footer ul{
     margin-right: 0.625rem;
     display: inline-block;
 }
+.cruzGris{
+    background-image: url("img/cruzgris.svg");
+    background-size: contain;
+    background-position-y: center;
+    background-position-x:450px;
+    background-repeat: no-repeat;
+}
+.numeroPB{
+    color: black;
+    font-weight: bold;
+    font-size: 7em;
+    margin-bottom: -1px;
+}
+.divPersonasVoluntarias{
+    position: relative;
+    margin-left: 50em;
+}
+.numeroPV{
+    color: red;
+    font-weight: bold;
+    font-size: 7em;
+    margin-bottom: -1px;
+}
+.textoPersonas{
+    font-size: 2em;
+}
+.edicionPremios{
+    background-image: url("img/edicionpremios.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
