@@ -519,3 +519,43 @@ footer ul{
     animation-name: changeColor;
     animation-duration: 1s;
 }
+
+.tituloQH {
+    color: darkgray;
+    font-family: verdana;
+    font-size: 300%;
+    text-align: center;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.generalQH div {
+    display: block;
+    display: block;
+    width: 33%;
+    text-align: left;
+}
+
+.generalQH {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.readQH {
+    color: red;
+}
+
+.columnaQH {
+    padding-right: 4%;
+    width: 33%;
+    display: flex;
+}
+
+.imagenesQH {
+    width: 100%;
+}
+
+main{
+    margin-top: 150px;
+}
