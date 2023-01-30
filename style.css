@@ -79,6 +79,7 @@ header a{
     display: block;
     position: absolute;
     width: 50px;
+    top: 200px;
     background-color: black;
     padding-left: 5px;
 }
@@ -412,4 +413,50 @@ a{
     text-align: center;
     background-color: white;
     color: black;
+}
+footer section {
+    display: flex;
+}
+.imagen {
+    padding-left: 3%;
+    padding-top: 3%;
+    margin-right: 40px;            
+}
+
+footer p {
+    text-align: left
+}
+footer h1 {
+    color: red;
+    text-align: left;
+}
+
+.div1 {
+    height: 800px;
+    width: 25%;
+    font-size: small;
+}
+
+.div2 {
+    color: red;
+    font-weight: bold;
+    font-size: 130%;
+    padding-top: 5%;
+    padding-right: 320px;
+    text-align: left;
+    background-color: rgb(238, 236, 236);
+}
+.RRSS {
+    padding-top: 80%;
+    font-size: medium;
+    margin-left: 20px;
+    display: inline-flex;
+    margin-right: 1.50rem;
+}
+footer ul{
+    list-style:none
+}
+.inline {
+    margin-right: 0.625rem;
+    display: inline-block;
 }
