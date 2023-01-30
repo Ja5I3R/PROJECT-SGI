@@ -212,23 +212,22 @@ a{
     color: white;
 }
 .div-Cercadeti{
-    position: absolute;
-    z-index: 20;
+    position: relative;
     color: white;
     font-size: 40px;
     left: 140px;
     top: 120px;
 }
 .div-Atencion{
-    position: absolute;
+    position: relative;
     color: white;
     font-size: 25px;
-    top: 300px;
+    top: 100px;
     left: 140px;
 }
 .div-Teleasistencia{
-    position: absolute;
-    top: 380px;
+    position: relative;
+    top: 140px;
     left: 140px;
 }
 .a-banner1{
