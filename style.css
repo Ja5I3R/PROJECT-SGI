@@ -209,12 +209,13 @@ a{
     background-size: cover;
     height: 530px;
     width: 100%;
+    color: white;
 }
 .div-Cercadeti{
     position: absolute;
+    z-index: 20;
     color: white;
     font-size: 40px;
-    font-family: Montserrat,"Helvetica Neue", Helvetica, Arial, sans-serif;
     left: 140px;
     top: 120px;
 }
@@ -222,7 +223,6 @@ a{
     position: absolute;
     color: white;
     font-size: 25px;
-    font-family: Montserrat,"Helvetica Neue", Helvetica, Arial, sans-serif;
     top: 300px;
     left: 140px;
 }
