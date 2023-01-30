@@ -295,3 +295,121 @@ a{
     height: 530px;
     width: 100%;
 }
+
+.barra{
+    border-bottom: 5px solid red;
+    width: 70px;
+    
+}
+.cabecera {
+    background-image: url("./img/cabecera.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textoimagen {
+    position: relative;
+    color: red;
+    font-size: 1.5em;
+    top: 50%;
+    left: 15%;
+}
+
+.botonImg {
+    background-color: red;
+    border: 2px solid red;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    width: 5em;
+}
+
+.botonImg:hover {
+    animation-name: changeColor;
+    animation-duration: 1s;
+}
+
+.botonVerMas{
+    border: 2px solid red;
+    color: red;
+    text-align: center;
+    padding: 15px;
+    font-size: 20x;
+    width: 5em;
+    margin: auto;
+}
+
+.botonVerMas:hover{
+    animation-name: changeColor2;
+    animation-duration: 1s;
+}
+
+.verMas{
+    border: 2px solid red;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    color: red;
+    width: 200px;
+}
+
+.flex {
+    display: flex;
+}
+
+.tituloNoticia{
+    color: black;
+    font-weight: bold;
+}
+
+.noticias {
+    width: 80%;
+    margin: auto;
+    padding-left: 10%;
+}
+
+.noticiaImg {
+    width: 80%;
+    height: 10em;
+}
+
+.noticia{
+    margin-bottom: -1px;
+    font-size: 2.25em;
+}
+
+.columna {
+    width: 30%;
+    padding-left: 4%;
+}
+
+.actCom {
+    background-color: white;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+}
+
+.leerMas{
+    color: red;
+    text-decoration: none;
+}
+
+.hr{
+    color: grey;
+}
+
+.fechaImg {
+    position: relative;
+    margin-left: 2em;
+    padding: 5px;
+    margin-left: 2em;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
