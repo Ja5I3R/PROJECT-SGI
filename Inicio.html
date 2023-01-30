@@ -188,13 +188,17 @@
         .cruzGris{
             background-image: url("img/cruzgris.svg");
             background-size: contain;
+            background-position-y: center;
+            background-position-x:450px;
             background-repeat: no-repeat;
-            width: 50px;
+            
         }
-
-        .numeroBP{
+        
+        .numeroPB{
             color: black;
             font-weight: bold;
+            font-size: 7em;
+            margin-bottom: -1px;
         }
         .divPersonasVoluntarias{
             position: relative;
@@ -202,7 +206,14 @@
         }
         .numeroPV{
             color: red;
+            font-weight: bold;
+            font-size: 7em;
+            margin-bottom: -1px;
         }
+        .textoPersonas{
+            font-size: 2em;
+        }
+
         .edicionPremios{
             background-image: url("img/edicionpremios.png");
             background-size: cover;
@@ -278,20 +289,22 @@
             <div>
                 <p class="verMas">VER MÁS NOTICIAS</p>
             </div>
+            <br>
             <div class = "cruzGris">
                 <div>
-                    <h3 class = "numberoPB">11.589.787</h3>
+                    <h3 class = "numeroPB">11.589.787</h3>
                     <div>
-                    <p>Personas beneficiarias al año</p>
+                        <p class = "textoPersonas">Personas beneficiarias al año</p>
                     </div>
                 </div>
                 <div class = "divPersonasVoluntarias">
                     <h3 class = "numeroPV">231.053</h3>
                     <div>
-                        <p>Personas voluntarias</p>
+                        <p class = "textoPersonas">Personas voluntarias</p>
                     </div>
                 </div>
             </div>
+
         </div>
         <div class = "edicionPremios">
             <div class="contenidoImagen2">
