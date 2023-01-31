@@ -501,6 +501,7 @@ footer ul{
     background-position-y: center;
     background-position-x:450px;
     background-repeat: no-repeat;
+    margin-left: 100px;
 }
 .numeroPB{
     color: black;
