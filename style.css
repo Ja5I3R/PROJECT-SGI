@@ -9,7 +9,7 @@
 }
 
 .div-Cercadeti {
-    position: absolute;
+    position: relative;
     color: white;
     font-size: 40px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -18,11 +18,11 @@
 }
 
 .div-Atencion {
-    position: absolute;
+    position: relative;
     color: white;
     font-size: 25px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    top: 300px;
+    top: 100px;
     left: 140px;
 }
 
@@ -108,4 +108,22 @@
     background-size: cover;
     height: 530px;
     width: 100%;
+}
+.UE{
+    display: flex;
+    height: 170px;
+    width: 1150px;
+    margin: 0 153px 0;
+}
+.UE1{
+    left: 5%;
+    position: relative;
+}
+.UE2{
+    left: 10%;
+    position: relative;
+}
+.UE3{
+    left: 15%;
+    position: relative;
 }
