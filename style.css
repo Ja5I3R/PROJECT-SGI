@@ -1,92 +1,108 @@
-<!--body{margin: 0;}-->
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap%27');
-.div-banner1{
+-->@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap%27');
+
+.div-banner1 {
     background-repeat: no-repeat;
     background-image: url(./img/BANNER\ VOLUNTARIOS.jpg);
     background-size: cover;
     height: 530px;
     width: 100%;
 }
-.div-Cercadeti{
+
+.div-Cercadeti {
     position: absolute;
     color: white;
     font-size: 40px;
-    font-family: Montserrat,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     left: 140px;
     top: 120px;
 }
-.div-Atencion{
+
+.div-Atencion {
     position: absolute;
     color: white;
     font-size: 25px;
-    font-family: Montserrat,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     top: 300px;
     left: 140px;
 }
-.div-Teleasistencia{
+
+.div-Teleasistencia {
     position: absolute;
     top: 380px;
     left: 140px;
 }
-.a-banner1{
+
+.a-banner1 {
     background-color: #e20613;
     border: #e20613;
     padding: 10px;
     color: white;
     text-decoration: none;
 }
-.a-banner2{
+
+.a-banner2 {
     background-color: transparent;
     border: 2px solid white;
     padding: 10px;
     color: blue;
     text-decoration: none;
 }
-.div-Teleasistencia a:hover{
+
+.div-Teleasistencia a:hover {
     background-color: black;
 }
-.solicita-info{
+
+.solicita-info {
     position: relative;
     left: 43%;
     top: 79%;
 }
-.solicita-info a:hover{
+
+.solicita-info a:hover {
     background-color: black;
 }
-.titulos{
+
+.titulos {
     border-bottom: 5px solid red;
     margin-bottom: 40px;
     width: 100px;
 }
-.div-body{
-    height:782px;
-    width:1014px;
+
+.div-body {
+    height: 782px;
+    width: 1014px;
     display: flex;
-    font-family: Montserrat,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.video{
+
+.video {
     flex-direction: column;
     left: 20%;
     width: auto;
     height: 756px;
     margin: 0 15% 0;
 }
-.twitter{
-    font-family: Montserrat,"Helvetica Neue", Helvetica, Arial, sans-serif;
+
+.twitter {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.div-atencion-logos{
+
+.div-atencion-logos {
     margin: 0 153px 0;
-    font-family: Montserrat,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.logos-container{
+
+.logos-container {
     display: flex;
     flex-wrap: wrap;
 }
-.logos-container div{
+
+.logos-container div {
     height: 288px;
     width: 247px;
 }
-.div-banner2{
+
+.div-banner2 {
     background-repeat: no-repeat;
     background-image: url(./img/Banners-Web_v5_imv.jpg);
     background-size: cover;
