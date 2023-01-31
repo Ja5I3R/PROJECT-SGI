@@ -297,7 +297,24 @@ a{
     height: 530px;
     width: 100%;
 }
-
+.UE{
+    display: flex;
+    height: 170px;
+    width: 1150px;
+    margin: 0 153px 0;
+}
+.UE1{
+    left: 5%;
+    position: relative;
+}
+.UE2{
+    left: 10%;
+    position: relative;
+}
+.UE3{
+    left: 15%;
+    position: relative;
+}
 .barra{
     border-bottom: 5px solid red;
     width: 70px;
