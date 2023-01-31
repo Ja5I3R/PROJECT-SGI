@@ -444,27 +444,30 @@ a{
 footer section {
     display: flex;
 }
-.imagen {
+footer section img{
+    width: 30px;
+}
+footer .imagen {
     padding-left: 3%;
     padding-top: 3%;
     margin-right: 40px;            
 }
 
-footer p {
+footer section p {
     text-align: left
 }
-footer h1 {
+footer section h1 {
     color: red;
     text-align: left;
 }
 
-.div1 {
+footer .div1 {
     height: 800px;
     width: 25%;
     font-size: small;
 }
 
-.div2 {
+footer .div2 {
     color: red;
     font-weight: bold;
     font-size: 130%;
@@ -472,16 +475,9 @@ footer h1 {
     padding-right: 320px;
     text-align: left;
     background-color: rgb(238, 236, 236);
-    width: 25%;
+    width: 20%;
 }
-.div2 img{
-    width: 20px;
-}
-.section2{
-    text-align: center;
-    padding: 30px;
-}
-.RRSS {
+footer .RRSS {
     padding-top: 80%;
     font-size: medium;
     margin-left: 20px;
@@ -491,9 +487,12 @@ footer h1 {
 footer ul{
     list-style:none
 }
-.inline {
+footer .inline {
     margin-right: 0.625rem;
     display: inline-block;
+}
+footer .section2{
+    padding-left: 5%;
 }
 .cruzGris{
     background-image: url("img/cruzgris.svg");
