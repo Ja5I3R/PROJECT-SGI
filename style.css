@@ -644,6 +644,89 @@ main{
 
 /*SEGUNDA ENTREGA - NO BORRAR COMENTARIOS - RELLENAR SOLO EN VUESTRO ESPACIO*/
 /*PARTE DE JAVIER*/
+.form1{
+    background-color: rgb(241, 241, 241);
+    height: 500px;
+    padding-top: 50px;
+}
+.formColum1{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+.hazte-socio{
+    margin-left: 200px;
+}
+.hazte-socio h3{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 1px;
+}
+.formColum1 div{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.formColum1 div label{
+    font-weight: bold;
+}
+.formColum1 div input{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+.formColum1 div input:active{
+    border-color: blue;
+}
+.formColum1 div select{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+.acent{
+    color: red;
+}
+.generalForm1{
+    display: block;
+    text-align: center;
+}
+.formColum2 div{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.formColum2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.formColum2 div label{
+    font-weight: bold;
+}
+.formColum2 div input{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+.formColum2 div input:active{
+    border-color: blue;
+}
+.botonrojoFormJavi {
+    color: white;
+    background-color: #e20613;
+    text-align: center;
+    border: 0.125rem solid #e20613;
+    margin: left;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+}
+
+.botonrojoFormJavi:hover {
+    background-color: black;
+    border: 0.125rem solid black;
+    animation: changeColor2 1s;
+}
 /*PARTE DE ALBERTO G*/
 /*PARTE DE ALBERTO C*/
 /*PARTE DE ARIEL*/
