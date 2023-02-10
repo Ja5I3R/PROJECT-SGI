@@ -51,44 +51,46 @@
             </div>
             <div class="titulos"></div>
             <div class="formFormacion">
-                <form action="get" class="formFormacion2">
-                    <div>
-                        <label for="nameFormacion" style="width: 100px;">Nombre</label><br>
-                        <input type="text" name="nameFormacion" required>
+                <form action="get">
+                    <div class="formFormacion2">
+                        <div>
+                            <label for="nameFormacion" style="width: 100px;">Nombre</label><br>
+                            <input type="text" name="nameFormacion" required>
+                        </div>
+                        <div>
+                            <label for="firstsubnameFormacion" style="width: 100px;">Primer Apellido</label><br>
+                            <input type="text" name="firstsubnameFormacion" required>
+                        </div>
+                        <div>
+                            <label for="secondsubnameFormacion" style="width: 100px;">Segundo Apellido</label><br>
+                            <input type="text" name="secondsubnameFormacion" required>
+                        </div>
+                        <div>
+                            <label for="NIF-NIE">NIF/NIE</label><br>
+                            <input type="text" name="NIF-NIE" required>
+                        </div>
+                        <div>
+                            <label for="numberFormacion">Teléfono</label><br>
+                            <input type="tel" name="numberFormacion" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+                        </div>
+                        <div>
+                            <label for="correoFormacion">Correo Electrónico</label><br>
+                            <input type="email" name="correoFormacion" required>
+                        </div>
+                        <div>
+                            <label for="cursoFormacion">Selecciona tu curso de formación</label>
+                            <select name="cursoFormacion" id="cursoFormacion">
+                                <option value="0">Seleccione una opción</option>
+                                <option value="1">Primeros Auxilios</option>
+                                <option value="2">Cursos para Empresas</option>
+                                <option value="3">Cursos para Voluntariado</option>
+                                <option value="4">Curso cooperación Internacional</option>
+                                <option value="5">Derechos Humanos</option>
+                                <option value="6">Certificado de Profesionalidad</option>
+                            </select>
+                        </div>
                     </div>
-                    <div>
-                        <label for="firstsubnameFormacion" style="width: 100px;">Primer Apellido</label><br>
-                        <input type="text" name="firstsubnameFormacion" required>
-                    </div>
-                    <div>
-                        <label for="secondsubnameFormacion" style="width: 100px;">Segundo Apellido</label><br>
-                        <input type="text" name="secondsubnameFormacion" required>
-                    </div>
-                    <div>
-                        <label for="NIF-NIE">NIF/NIE</label><br>
-                        <input type="text" name="NIF-NIE" required>
-                    </div>
-                    <div>
-                        <label for="numberFormacion">Teléfono</label><br>
-                        <input type="tel" name="numberFormacion" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
-                    </div>
-                    <div>
-                        <label for="correoFormacion">Correo Electrónico</label><br>
-                        <input type="email" name="correoFormacion" required>
-                    </div>
-                    <div>
-                        <label for="cursoFormacion">Selecciona tu curso de formación</label>
-                        <select name="cursoFormacion" id="cursoFormacion">
-                            <option value="0">Seleccione una opción</option>
-                            <option value="1">Primeros Auxilios</option>
-                            <option value="2">Cursos para Empresas</option>
-                            <option value="3">Cursos para Voluntariado</option>
-                            <option value="4">Curso cooperación Internacional</option>
-                            <option value="5">Derechos Humanos</option>
-                            <option value="6">Certificado de Profesionalidad</option>
-                        </select>
-                    </div>
-                    <div>
+                    <div class="buttonForm">
                         <input type="submit" value="SIGUIENTE" class="buttonFormacion">
                     </div>
                 </form>

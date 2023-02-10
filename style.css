@@ -873,7 +873,12 @@ span {
     height: 40px;
     background-color: white;
 }
+.buttonForm{
+    padding-left: 36%;
+    padding-right: 36%;
+}
 .buttonFormacion{
+    color: white;
     background-color: #e20613;
     text-align: center;
     border: 0.125rem solid #e20613;
@@ -883,7 +888,6 @@ span {
     height: 40px;
 }
 .buttonFormacion:hover{
-    color: white;
     background-color: black;
     border: 0.125rem solid black;
     animation: changeColor2 1s;
