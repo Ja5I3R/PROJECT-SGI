@@ -1,4 +1,4 @@
-/*PRIMERA ENYTREGA*/
+/*PRIMERA ENTREGA*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap%27');
 
 body{
@@ -21,8 +21,8 @@ header{
     justify-content: end;
     gap: 20px;
     border-bottom: 1px solid grey;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 .headertop a{
     color: grey;
@@ -41,8 +41,8 @@ header{
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 .menu a{
     color: black;
@@ -644,6 +644,88 @@ main{
 
 /*SEGUNDA ENTREGA - NO BORRAR COMENTARIOS - RELLENAR SOLO EN VUESTRO ESPACIO*/
 /*PARTE DE JAVIER*/
+.form1{
+    background-color: rgb(241, 241, 241);
+    padding-top: 50px;
+}
+.formColum1{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+.hazte-socio{
+    margin-left: 200px;
+}
+.hazte-socio h3{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 1px;
+}
+.formColum1 div{
+    width: 400px;
+    margin-bottom: 20px;
+}
+.formColum1 div label{
+    font-weight: bold;
+}
+.formColum1 div input{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+.formColum1 div input:active{
+    border-color: blue;
+}
+.formColum1 div select{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+.acent{
+    color: red;
+}
+.generalForm1{
+    display: block;
+    text-align: center;
+}
+.formColum2 div{
+    width: 500px;
+    margin-bottom: 20px;
+}
+.formColum2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.formColum2 div label{
+    font-weight: bold;
+}
+.formColum2 div input{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+.formColum2 div input:active{
+    border-color: blue;
+}
+.botonrojoFormJavi {
+    color: white;
+    background-color: #e20613;
+    text-align: center;
+    border: 0.125rem solid #e20613;
+    margin-bottom: 30px;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+}
+
+.botonrojoFormJavi:hover {
+    background-color: black;
+    border: 0.125rem solid black;
+    animation: changeColor2 1s;
+}
 /*PARTE DE ALBERTO G*/
 /*PARTE DE ALBERTO C*/
 .formularioglobal {
@@ -738,6 +820,46 @@ span {
     margin-bottom: 0.625rem;
 }
 /*PARTE DE ARIEL*/
+.bodyFormacion{
+    margin: 0 200px 0;
+    font-family: Montserrat,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.formFormacion{
+    background-color: gainsboro;
+    width: auto;
+    height: 500px;
+}
+.formFormacion2{
+    position: relative;
+    display: flex;
+    top: 10%;
+    left: 10%;
+    flex-wrap: wrap;
+
+}
+.formFormacion2 div{
+    margin: 0 50px 50px;
+}
+.formFormacion2 div label{
+    font-weight: bold;
+}
+.formFormacion2 div input{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+.buttonFormacion{
+    border: 0.125rem solid #e20613;
+    margin: left;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+}
+.buttonFormacion :hover{
+    background-color: red;
+    border: 0.125rem solid red;
+    animation: changeColor2 1s;
+}
 /*PARTE DE DAVID*/
 /*PARTE DE MOHAMED*/
 /*PARTE DE VICTOR*/

@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <title>Alta socio/a - Cruz Roja</title>
 </head>
-
 <body>
     <header>
         <div class="headertop">
@@ -56,80 +55,78 @@
         <a href="#"><img src="./img/flickr.png" alt=""></a>
     </div>
     <main>
-        <section class="formularioglobal">
-            <form action="post" class="formulario">
-                <div class="espacio1">
-                    <div class="campo">
-                        <label for="nombre">Nombre <span>*</span></label>
-                        <input  class='input' type="text" name="nombre" required>
+        <div class="hazte-socio">
+            <h3>HAZTE SOCIO/A</h3>
+            <div class="barra">
+        </div>
+        </div>
+        <div class="form1">
+            <form action="get" class="generalForm1">
+                <div class="formColum1">
+                    <div>
+                        <label for="nombre-persona-contacto">Nombre persona de contacto<span class="acent">*</span></label><br><br>
+                        <input type="text" name="nombre-persona-contacto" required>
                     </div>
-                    <div class="campo">
-                        <label for="apellido1">Primer Apellido <span>*</span></label>
-                        <input class='input' type="text" name="apellido1" required>
+                    <div>
+                        <label for="primer-apellido-persona-contacto">Primer apellido persona de contacto<span class="acent">*</span></label><br><br>
+                        <input type="text" name="primer-apellido-persona-contacto" required>
                     </div>
-                    <div class="campo">
-                        <label for="apellido2">Segundo Apellido</label>
-                        <input  class='input' type="text" name="apellido2">
+                    <div>
+                        <label for="segundo-apellido-persona-contacto">Segundo apellido persona de contacto</label><br><br>
+                        <input type="text" name="segundo-apellido-persona-contacto">
                     </div>
-                    <div class="campo">
-                        <label for="fechaNacimiento">Fecha de Nacimiento <span>*</span></label>
-                        <input class='input'  type="date" name="fechaNacimiento" required>
+                    <div>
+                        <label for="nombre-empresa">Nombre de la empresa<span class="acent">*</span></label><br><br>
+                        <input type="text" name="nombre-empresa" required>
                     </div>
-                    <div class="campo">
-                        <label for="Tipo_Documento">Tipo de Documento <span>*</span></label>
-                        <select  class="select" name="tipoDocumento">
-                            <option value="seleccion">Seleccione el tipo de documento</option>
-                            <option value="Número-Identificación-Fiscal">Número Identificación Fiscal</option>
-                            <option value="Número-Identificación-Extranjeros">Número Identificación Extranjeros</option>
-                            <option value="Pasaporte">Pasaporte</option>
+                    <div>
+                        <label for="naturaleza-juridica">Naturaleza juridica<span class="acent">*</span></label><br><br>
+                        <select name="naturaleza-juridica" aria-placeholder="Seleccione Naturaleza Juridica" required>
+                            <option value="sociedad-anonima">Sociedad Anónima (S.A.)</option>
+                            <option value="sociedad-limitada">Sociedad Limitada (SI o SRL)</option>
+                            <option value="sociedad-cooperativa">Sociedad Cooperativa </option>
                         </select>
                     </div>
-                    <div class="campo">
-    
-                        <label for="numeroDocumento">Número de Documento</label>
-                        <input  class='input'type="text" name="numeroDocumento">
-                    </div>
-                    <div class="campo">
-                        <label for="Sexo">Sexo <span>*</span></label>
-                        <select  class="select" name="sexo">
-                            <option value="sexo">Seleccione el sexo</option>
-                            <option value="Hombre">Hombre</option>
-                            <option value="Hombre">Mujer</option>
+                    <div>
+                        <label for="tipo-documento">Tipo de documento<span class="acent">*</span></label><br><br>
+                        <select name="tipo-documento" aria-placeholder="Seleccione tipo de documento" required>
+                            <option value="numero-identificacion-fiscal">Numero Identificacion Fiscal</option>
+                            <option value="numero-identificacion-extranjeros">Numero Identificacion Extranjeros</option>                            
+                            <option value="codigo   -identificacion-fiscal">Codigo Identificacion Fiscal</option>
                         </select>
                     </div>
-                    <div class="campo">
-                        <label for="telefono">Teléfono de Contacto <span>*</span></label>
-                        <input  class='input'type="tel" name="telefono">
+                    <div>
+                        <label for="numero-documento">Numero del documento<span class="acent">*</span></label><br><br>
+                        <input type="text" name="numero-documento" required>
                     </div>
-                    <div class="campo">
-                        <label for="Idioma_comunicados">Idioma comunicados <span>*</span></label>
-                        <select class="select" name="Idioma_comunicados">
-                            <option value="idioma">Seleccione el idioma</option>
-                            <option value="Castellano">Castellano</option>
-                            <option value="Inglés">Inglés</option>
-                            <option value="Alemán">Alemán</option>
-                            <option value="Ruso">Ruso</option>
-                            <option value="Chino">Chino</option>
-                        </select>                   
+                    <div>
+                        <label for="telefono-contacto">Telefono de contacto<span class="acent">*</span></label><br><br>
+                        <input type="tel" name="telefono-contacto" required>
                     </div>
-                </div>
-                <div class="espacio2">
-                    <div class="campo">
-                        <label for="email">Correo Electrónico <span>*</span></label>
-                        <input class='input' type="email" name="email">
-                    </div>
-                    <div class="campo">
-                        <label for="email2">Repetir Correo Electrónico<span>*</span></label>
-                        <input class='input' type="email" name="email2">
+                    <div>
+                        <label for="idioma-comunicado">Idioma comunicados<span class="acent">*</span></label><br><br>
+                        <select name="idioma-comunicado" aria-placeholder="Seleccione un idioma" required>
+                            <option value="castellano">Castellano</option>
+                            <option value="catalan">Catalan</option>
+                        </select>
                     </div>
                 </div>
-                <div class="enviarboton">
-                    <input type="submit" value="Enviar">
+                <div class="formColum2">
+                    <div>
+                        <label for="correo">Correo electronico<span class="acent">*</span></label><br><br>
+                        <input type="email" name="correo" required>
+                    </div>
+                    <div>
+                        <label for="rep-correo">Repite correo electronico<span class="acent">*</span></label><br><br>
+                        <input type="email" name="rep-correo" required>
+                    </div>
+                </div>
+                <div>
+                    <input type="submit" value="SIGUIENTE" class="botonrojoFormJavi">
                 </div>
             </form>
-        </section>
+        </div>
     </main>
-    
     <footer>
         <section>
             <div class="imagen">
@@ -206,7 +203,5 @@
             </ul>
         </section2>
     </footer>
-
 </body>
-
 </html>
