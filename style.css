@@ -733,14 +733,11 @@ main{
     height: auto;
     padding-top: 50px;
 }
-
 .formulario {
-
     text-align: center;
     width: 70%;
     margin: auto;
 }
-
 .espacio1 {
     display: flex;
     margin-left: 200px;
