@@ -758,15 +758,18 @@ main{
     background-color: white;
 }
 .buttonFormacion{
+    background-color: #e20613;
+    text-align: center;
     border: 0.125rem solid #e20613;
-    margin: left;
+    margin-bottom: 30px;
     justify-content: center;
     width: 300px;
     height: 40px;
 }
-.buttonFormacion :hover{
-    background-color: red;
-    border: 0.125rem solid red;
+.buttonFormacion:hover{
+    color: white;
+    background-color: black;
+    border: 0.125rem solid black;
     animation: changeColor2 1s;
 }
 /*PARTE DE DAVID*/
