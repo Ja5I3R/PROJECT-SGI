@@ -1,53 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haz Voluntariado</title>
+    <title></title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <form method="get">
-        <label for="Nombre">Nombre</label>
-        <input type="text" name="gender" placeholder="Introduzca su nombre porfavor">
-        <label for="Primer_Apellido">Primer Apellido</label>
-        <input type="text" name="gender" value="genderm">
-        <label for="Segundo_Apellido">Segundo Apellido</label>
-        <input type="text" name="gender" value="genderm">
-        <label for="Fecha_Nacimiento">Fecha Nacimiento</label>
-        <input type="date" name="gender" value="genderm">
-        <label for="Tipo_Documento">Tipo de Documento</label>
-        <select name="" id="">
-            <option value="1">Seleccione el tipo de documento</option>
-            <option value="2">Número Identificación Fiscal</option>
-            <option value="3">Número Identificación Extranjeros</option>
-            <option value="4">Pasaporte</option>
-        </select>
-        <label for="Numero_documento">Número de documento</label>
-        <input type="number" name="gender" value="genderm">
-        <label for="Sexo">Sexo</label>
-        <select name="" id="">
-            <option value="1">Seleccione el sexo</option>
-            <option value="1">1</option>
-            <option value="1">2</option>
-        </select>
-        <label for="Telefono">Teléfono</label>
-        <input type="number" name="gender" value="genderm">
-        <label for="Idioma_comunicados">Idioma comunicados</label>
-        <select name="" id="">
-            <option value="1">Seleccione el idioma</option>
-            <option value="1">Castellano</option>
-            <option value="2">Inglés</option>
-            <option value="2">Alemán</option>
-            <option value="2">Ruso</option>
-            <option value="2">Chino</option>
-        </select>
-        <label for="Correo_electronico">Correo electrónico</label>
-        <input type="email" name="gender" value="genderm">
-        <label for="Correo_electronico">Repite correo electrónico</label>
-        <input type="email" name="gender" value="genderm">
-    </form>
+    <header>
+        <div class="headertop">
+            <div class="lineHeaderTop">
+                <img src="./img/correo-electronico.png" alt="contacto">
+                <a href="#">Contacto</a>
+            </div>
+            <div class="lineHeaderTop">
+                <img src="./img/maletin.png" alt="intranet">
+                <a href="#">Intranet</a>
+            </div>
+            <div class="lineHeaderTop">
+                <img src="./img/usuario.png" alt="identificate">
+                <a href="#">Identificate</a>
+            </div>
+            <div class="lineHeaderTop">
+                <img src="./img/periodico.png" alt="sala de prensa">
+                <a href="#">Sala de prensa</a>
+            </div>
+        </div>
+        <div class="headerbottom">
+            <div>
+                <a href="./Inicio.html"><img src="./img/logo-cabecera.png" alt="logo-principal"></a>
+            </div>
+            <div class="menu">
+                <a href="./Que-hacemos.html">Que hacemos</a>
+                <a href="#">Colaborado</a>
+                <a href="#">Voluntariado</a>
+                <a href="#">Fórmate</a>
+            </div>
+            <div>
+                <img src="./img/buscar.png" alt="busqueda" class="search">
+                <a href="#" class="button1">Haz voluntariado</a>
+                <a href="#" class="button2">Hazte socio/a</a>
+            </div>
+        </div>
+    </header>
+    <div class="socialSide">
+        <p>Siguenos</p>
+        <hr class="socialLine">
+        <a href="#"><img src="./img/gorjeo.png" alt="twitter"></a>
+        <a href="#"><img src="./img/facebook.png" alt="facebook"></a>
+        <a href="#"><img src="./img/youtube.png" alt="youtube"></a>
+        <a href="#"><img src="./img/instagram.png" alt=""></a>
+        <a href="#"><img src="./img/flickr.png" alt=""></a>
+    </div>
+    <main>
+        <section class="formularioglobal">
+            <form action="post" class="formulario">
+                <div class="espacio1">
+                    <div class="campo">
+                        <label for="nombre">Nombre <span>*</span></label>
+                        <input  class='input' type="text" name="nombre" required>
+                    </div>
+                    <div class="campo">
+                        <label for="apellido1">Primer Apellido <span>*</span></label>
+                        <input class='input' type="text" name="apellido1" required>
+                    </div>
+                    <div class="campo">
+                        <label for="apellido2">Segundo Apellido</label>
+                        <input  class='input' type="text" name="apellido2">
+                    </div>
+                    <div class="campo">
+                        <label for="fechaNacimiento">Fecha de Nacimiento <span>*</span></label>
+                        <input class='input'  type="date" name="fechaNacimiento" required>
+                    </div>
+                    <div class="campo">
+                        <label for="Tipo_Documento">Tipo de Documento <span>*</span></label>
+                        <select  class="select" name="tipoDocumento">
+                            <option value="seleccion">Seleccione el tipo de documento</option>
+                            <option value="Número-Identificación-Fiscal">Número Identificación Fiscal</option>
+                            <option value="Número-Identificación-Extranjeros">Número Identificación Extranjeros</option>
+                            <option value="Pasaporte">Pasaporte</option>
+                        </select>
+                    </div>
+                    <div class="campo">
     
+                        <label for="numeroDocumento">Número de Documento</label>
+                        <input  class='input'type="text" name="numeroDocumento">
+                    </div>
+                    <div class="campo">
+                        <label for="Sexo">Sexo <span>*</span></label>
+                        <select  class="select" name="sexo">
+                            <option value="sexo">Seleccione el sexo</option>
+                            <option value="Hombre">Hombre</option>
+                            <option value="Hombre">Mujer</option>
+                        </select>
+                    </div>
+                    <div class="campo">
+                        <label for="telefono">Teléfono de Contacto <span>*</span></label>
+                        <input  class='input'type="tel" name="telefono">
+                    </div>
+                    <div class="campo">
+                        <label for="Idioma_comunicados">Idioma comunicados <span>*</span></label>
+                        <select class="select" name="Idioma_comunicados">
+                            <option value="idioma">Seleccione el idioma</option>
+                            <option value="Castellano">Castellano</option>
+                            <option value="Inglés">Inglés</option>
+                            <option value="Alemán">Alemán</option>
+                            <option value="Ruso">Ruso</option>
+                            <option value="Chino">Chino</option>
+                        </select>                   
+                    </div>
+                </div>
+                <div class="espacio2">
+                    <div class="campo">
+                        <label for="email">Correo Electrónico <span>*</span></label>
+                        <input class='input' type="email" name="email">
+                    </div>
+                    <div class="campo">
+                        <label for="email2">Repetir Correo Electrónico<span>*</span></label>
+                        <input class='input' type="email" name="email2">
+                    </div>
+                </div>
+                <div class="enviarboton">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <section>
+            <div class="imagen">
+                <img alt="Cruz Roja" src="./img/logopequeno.png" width="115" height="30">
+            </div>
+            <div class="div1">
+                <h1>Conócenos</h1>
+                <p>Sobre Cruz Roja</p>
+                <p>Nuestra historia</p>
+                <p>Transparencia</p>
+                <p>Calidad</p>
+                <p>Centro de documentación</p>
+            </div>
+            <div class="div1">
+                <h1>Actualidad</h1>
+                <p>AHORA</p>
+                <p>Sala de prensa</p>
+                <p>Campañas</p>
+                <p>Cruz Roja en YouTube</p>
+                <p>Revista</p>
+                </p>
+            </div>
+            <div class="div1">
+                <h1>Nuestras Webs</h1>
+                <p>Cruz Roja TE ACOMPAÑA</p>
+                <p>La Fuerza V</p>
+                <p>Cruz Roja Juventud</p>
+                <p>Orientación empleo</p>
+                <p>Migrar.org</p>
+                <p>Info Prevención VIH ITS TBC</p>
+                <p>Multicanal SerCuidadorA</p>
+                <p>F. Tecnologías Sociales</p>
+                <p>Centros de Medios de Vida</p>
+            </div>
+            <div class="div2">
+                <ul>
+                    <li><img alt="Perfil" src="./img/perfil.JPG" width="20" height="20"> Intranet</li>
+                    <br>
+                    <li><img alt="Tienda" src="./img/carrito.JPG" width="20" height="20"> Tienda Online</li>
+                    <br>
+                    <li><img alt="Denuncias" src="./img/megafono.JPG" width="20" height="20"> Canal denuncias</li>
+                    <br>
+                    <li><img alt="Licitaciones" src="./img/mazo.JPG" width="20" height="20"> Licitaciones</li>
+                    <br>
+                    <li><img alt="Trabajar" src="./img/maletin.JPG" width="20" height="20"> Trabaja con Cruz Roja</li>
+                </ul>
+                <div class="RRSS">
+                    <p>Siguenos</p>
+                    <img alt="Twitter" src="./img/twittergris.JPG" width="25" height="25">
+                    <img alt="Facebook" src="./img/facebookgris.JPG" width="25" height="25">
+                    <img alt="YouTube" src="./img/youtubegris.JPG" width="25" height="25">
+                    <img alt="Instagram" src="./img/instagramgris.JPG" width="25" height="25">
+                    <img alt="Flirck" src="./img/flickrgris.JPG" width="25" height="25">
+                </div>
+            </div>
+        </section>
+        <section2 class="section2">
+            <p>© Cruz Roja Española 2023. Todos los derechos reservados <a href="https://www2.cruzroja.es/aviso-legal"
+                    target="_blank">aquí</a> para consultar los ASPECTOS LEGALES</p>
+            <p><a href="https://www2.cruzroja.es/agencia-de-colocacion" target="_blank">Agencia de Colocación autorizada
+                    con el número 9900000098</a></p>
+            <ul>
+                <li class="inline">
+                    <a title="Contacto" href="https://www2.cruzroja.es/contacto">Contacto</a>
+                </li>
+                <li class="inline">
+                    <a title="Política de privacidad" href="https://www2.cruzroja.es/politica-de-privacidad">Política de
+                        privacidad</a>
+                </li>
+                <li class="inline">
+                    <a title="Política de Cookies" href="https://www2.cruzroja.es/politica-de-cookies">Política de
+                        Cookies</a>
+                </li>
+            </ul>
+        </section2>
+    </footer>
+
 </body>
+
 </html>
