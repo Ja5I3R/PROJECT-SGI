@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -56,80 +56,119 @@
         <a href="#"><img src="./img/flickr.png" alt=""></a>
     </div>
     <main>
-        <section class="formularioglobal">
-            <form action="post" class="formulario">
-                <div class="espacio1">
-                    <div class="campo">
-                        <label for="nombre">Nombre <span>*</span></label>
-                        <input  class='input' type="text" name="nombre" required>
+        <div class="titulo1">
+            <h3 class="titulo">Alta voluntariado</h3>
+            <div class="barra"></div>
+        </div>
+        <div class="form1">
+            <h4 class="tituloForm">Necesitaremos los datos del tutor legal</h4>
+            <form action="get" method="get" class="generalForm1">
+                <div class="formColum1">
+                    <div>
+                        <label >Nombre<span class ="acent">*</span></label>
+                        <br>
+                        <input type="text" name="Nombre" required>
                     </div>
-                    <div class="campo">
-                        <label for="apellido1">Primer Apellido <span>*</span></label>
-                        <input class='input' type="text" name="apellido1" required>
-                    </div>
-                    <div class="campo">
-                        <label for="apellido2">Segundo Apellido</label>
-                        <input  class='input' type="text" name="apellido2">
-                    </div>
-                    <div class="campo">
-                        <label for="fechaNacimiento">Fecha de Nacimiento <span>*</span></label>
-                        <input class='input'  type="date" name="fechaNacimiento" required>
-                    </div>
-                    <div class="campo">
-                        <label for="Tipo_Documento">Tipo de Documento <span>*</span></label>
-                        <select  class="select" name="tipoDocumento" required>
-                            <option value="seleccion">Seleccione el tipo de documento</option>
-                            <option value="Número-Identificación-Fiscal">Número Identificación Fiscal</option>
-                            <option value="Número-Identificación-Extranjeros">Número Identificación Extranjeros</option>
-                            <option value="Pasaporte">Pasaporte</option>
-                        </select>
-                    </div>
-                    <div class="campo">
     
-                        <label for="numeroDocumento">Número de Documento <span>*</span></label>
-                        <input  class='input'type="text" name="numeroDocumento" required>
+                    <div>
+                        <label>Primer Apellido<span class ="acent">*</span></label>
+                        <br>
+                        <input type="text" name="Primer epellido" required>
                     </div>
-                    <div class="campo">
-                        <label for="Sexo">Sexo <span>*</span></label>
-                        <select  class="select" name="sexo">
-                            <option value="sexo">Seleccione el sexo</option>
-                            <option value="Hombre">Hombre</option>
-                            <option value="Hombre">Mujer</option>
+    
+                    <div>
+                        <label>Segundo apellido<span class ="acent">*</span></label>
+                        <br>
+                        <input type="text" name="Segundo epellido" required>
+                    </div>
+                    
+                    <div>
+                        <label>Fecha de nacimiento<span class ="acent">*</span></label>
+                        <br>
+                        <input type="date" name="Fecha nacimiento" required>
+                    </div>
+    
+                    <div>
+                        <label>Tipo de documento<span class ="acent">*</span></label>
+                        <br>
+                        <select name="Tipo-de-documento" required>
+                            <option value="1">Seleccione tipo de documento</option>
+                            <option value="2">Número Identificación Fiscal</option>
+                            <option value="3">Número Identificación Extranjeros</option>
+                            <option value="4">Pasaporte</option>
                         </select>
                     </div>
-                    <div class="campo">
-                        <label for="telefono">Teléfono de Contacto <span>*</span></label>
-                        <input  class='input'type="tel" name="telefono">
+    
+                    <div>
+                        <label>Número de documento<span class ="acent">*</span></label>
+                        <br>
+                        <input type="text" name="Número documento" required>
                     </div>
-                    <div class="campo">
-                        <label for="Idioma_comunicados">Idioma comunicados <span>*</span></label>
-                        <select class="select" name="Idioma_comunicados">
-                            <option value="idioma">Seleccione el idioma</option>
-                            <option value="Castellano">Castellano</option>
-                            <option value="Inglés">Inglés</option>
-                            <option value="Alemán">Alemán</option>
-                            <option value="Ruso">Ruso</option>
-                            <option value="Chino">Chino</option>
-                        </select>                   
+    
+                    <div>
+                        <label>Sexo<span class ="acent">*</span></label>
+                        <br>
+                        <select name="sexo" required>
+                            <option value="1">Seleccione el sexo</option>
+                            <option value="2">Hombre</option>
+                            <option value="3">Mujer</option>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <label>Teléfono de contacto<span class ="acent">*</span></label>
+                        <br>
+                        <input type="tel" name="Teléfono" required>
+                    </div>
+    
+                    <div>
+                        <label>Correo electrónico<span class ="acent">*</span></label>
+                        <br>
+                        <input type="email" name="Email" required>
+                    </div>
+    
+                    <div>
+                        <label>Repite Correo electrónico<span class ="acent">*</span></label>
+                        <br>
+                        <input type="email" name="Email" required>
+    
+                    </div>
+                    <div>
+                        <label>Tipo de relación<span class ="acent">*</span></label>
+                        <br>
+                        <select name="Tipo-de-relacion" required>
+                            <option value="1">Tipo de relación</option>
+                            <option value="2">Tutor jurídico</option>
+                            <option value="3">Padre</option>
+                            <option value="4">Madre</option>
+                            <option value="5">Familiar</option>
+                            <option value="6">Padrino/Madrina</option>
+                            <option value="7">Administración</option>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <label>Código postal<span class ="acent">*</span></label>
+                        <br>
+                        <input type="number" name="Código postal" required>
+                    </div>
+    
+                    <div class="center">
+                        <label>Tipo de entidad<span class ="acent">*</span></label>
+                        <br>
+                        <select name="Tipe-de-identidad" required>
+                            <option value="1">Persona física</option>
+                            <option value="2">Empresa</option>
+                        </select>
                     </div>
                 </div>
-                <div class="espacio2">
-                    <div class="campo">
-                        <label for="email">Correo Electrónico <span>*</span></label>
-                        <input class='input' type="email" name="email">
-                    </div>
-                    <div class="campo">
-                        <label for="email2">Repetir Correo<span>*</span></label>
-                        <input class='input' type="email" name="email2">
-                    </div>
-                </div>
-                <div class="enviarboton">
-                    <input type="submit" value="Enviar">
-                </div>
+                
+
             </form>
-        </section>
+
+        </div>
+
     </main>
-    
     <footer>
         <section>
             <div class="imagen">
@@ -206,7 +245,6 @@
             </ul>
         </section2>
     </footer>
-
 </body>
 
 </html>

@@ -733,14 +733,11 @@ main{
     height: auto;
     padding-top: 50px;
 }
-
 .formulario {
-
     text-align: center;
     width: 70%;
     margin: auto;
 }
-
 .espacio1 {
     display: flex;
     margin-left: 200px;
@@ -754,7 +751,7 @@ main{
     width: auto;
 }
 .espacio1 select{
-    height: 40px;
+    height: 45px;
     margin-right: 30px;
     font-size: 1rem;
     width: auto;
@@ -765,16 +762,16 @@ main{
     font-size: 1rem;
     width: auto;
 }
-.espacio2 select{
-    height: 40px;
-    margin-right: 30px;
-    font-size: 1rem;
-    width: auto;
-}
+
 .espacio2 {
     display: flex;
     flex-wrap: wrap;
     margin-left: 400px;
+}
+@media (max-width: 850px) {
+    .espacio2 {
+        margin-left: 200px;
+    }
 }
 
 .campo {
@@ -800,20 +797,6 @@ main{
     border: 0.125rem solid black;
     animation: changeColor2 1s;
 }
-
-/*.input{
-    height: 40px;
-    margin-right: 30px;
-    font-size: 1rem;
-    width: auto;
-}
-
-.select{
-    height: 40px;
-    margin-right: 30px;
-    font-size: 1rem;
-    width: auto;
-}*/
 
 label {
     color: black;
@@ -893,5 +876,62 @@ span {
     animation: changeColor2 1s;
 }
 /*PARTE DE DAVID*/
+.form1{
+    background-color: rgb(241, 241, 241);
+    padding-top: 50px;
+    padding-bottom: 50px;;
+}
+.formColum1{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+
+.hazte-socio h3{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 1px;
+}
+.formColum1 div{
+    width: 400px;
+    margin-bottom: 20px;
+}
+.formColum1 div label{
+    font-weight: bold;
+}
+.formColum1 div input{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+.formColum1 div input:active{
+    border-color: blue;
+}
+.formColum1 div select{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+.acent{
+    color: red;
+}
+.generalForm1{
+    display: block;
+    text-align: center;
+}
+.tituloForm{
+    font-size: 1.5em;
+    width: 100%;
+    margin-left: 200px;
+}
+.center{
+    margin-left: 400px;
+}
+@media (max-width: 1050px){
+    .center{
+    margin-left: 0px;
+}
+}
 /*PARTE DE MOHAMED*/
 /*PARTE DE VICTOR*/

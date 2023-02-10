@@ -65,19 +65,23 @@ FormularioAlberto
             <form action="get" class="generalForm1">
                 <div class="formColum1">
                     <div>
-                        <label for="nombre">Nombre<span class="acent"></span></label><br>
+                        <label for="nombre">Nombre<span class="acent">*</span></label><br>
                         <input type="text" name="Nombre" required>
                     </div>
                     <div>
-                        <label for="apellido">Apellidos<span class="acent"></span></label><br>                        
+                        <label for="apellido">Apellidos<span class="acent">*</span></label><br>                        
                         <input type="text" name="Apellidos" required>
                     </div>                    
                     <div>
-                        <label for="donante">Nº Socio<span class="acent"></span></label><br>
+                        <label for="donante">Nº Socio<span class="acent">*</span></label><br>
                         <input type="text" name="Socio" required>
                     </div>
                     <div>
-                        <label for="Genero">Genero<span class="acent"></span></label><br>
+                        <label for="direccion">Dirección<span class="acent">*</span></label><br>
+                        <input type="text" name="direccion" required>
+                    </div>
+                    <div>
+                        <label for="Genero">Genero<span class="acent">*</span></label><br>
                         <select name="Genero" aria-placeholder="Sexo" required>
                             <option value="Chico">Chico</option>
                             <option value="Chica">Chica</option>
@@ -85,23 +89,21 @@ FormularioAlberto
                         </select>
                     </div>                    
                     <div>
-                        <label for="numero-documento">DNI/NIE<span class="acent"></span></label><br>
+                        <label for="numero-documento">DNI/NIE<span class="acent">*</span></label><br>
                         <input type="text" name="numero-documento" required>
-                    </div>                                      
-                </div>
-                <div class="formColum2">
+                    </div>
                     <div>
-                        <label for="telefono-contacto">Telefono de contacto<span class="acent"></span></label><br>
+                        <label for="telefono-contacto">Telefono de contacto<span class="acent">*</span></label><br>
                         <input type="tel" name="telefono-contacto" required>
                     </div>
                     <div>
-                        <label for="correo">Correo electronico<span class="acent"></span></label><br>
+                        <label for="correo">Correo electronico<span class="acent">*</span></label><br>
                         <input type="email" name="correo" required>
                     </div>
                     <div>
-                        <label for="rep-correo">Repite correo electronico<span class="acent"></span></label><br>
+                        <label for="rep-correo">Repite correo electronico<span class="acent">*</span></label><br>
                         <input type="email" name="rep-correo" required>
-                    </div>
+                    </div>                                      
                 </div>
                 <div>
                     <input type="submit" value="SIGUIENTE" class="botonrojoFormJavi">
