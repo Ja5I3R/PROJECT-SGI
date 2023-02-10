@@ -747,7 +747,30 @@ main{
     margin-right: 10px;
     flex-wrap: wrap;
 }
-
+.espacio1 input{
+    height: 40px;
+    margin-right: 30px;
+    font-size: 1rem;
+    width: auto;
+}
+.espacio1 select{
+    height: 40px;
+    margin-right: 30px;
+    font-size: 1rem;
+    width: auto;
+}
+.espacio2 input{
+    height: 40px;
+    margin-right: 30px;
+    font-size: 1rem;
+    width: auto;
+}
+.espacio2 select{
+    height: 40px;
+    margin-right: 30px;
+    font-size: 1rem;
+    width: auto;
+}
 .espacio2 {
     display: flex;
     flex-wrap: wrap;
@@ -769,6 +792,8 @@ main{
     text-align: center;
     border: 0.125rem solid #e20613;
     width: 70px;
+    height: 30px;
+    margin-bottom: 15px;
 }
 .enviarboton input:hover {
     background-color: black;
@@ -776,7 +801,7 @@ main{
     animation: changeColor2 1s;
 }
 
-.input{
+/*.input{
     height: 40px;
     margin-right: 30px;
     font-size: 1rem;
@@ -788,7 +813,7 @@ main{
     margin-right: 30px;
     font-size: 1rem;
     width: auto;
-}
+}*/
 
 label {
     color: black;
