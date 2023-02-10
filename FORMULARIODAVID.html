@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    .form1{
+    background-color: rgb(241, 241, 241);
+    padding-top: 50px;
+    padding-bottom: 50px;;
+}
+.formColum1{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+
+.hazte-socio h3{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 1px;
+}
+.formColum1 div{
+    width: 400px;
+    margin-bottom: 20px;
+}
+.formColum1 div label{
+    font-weight: bold;
+}
+.formColum1 div input{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+.formColum1 div input:active{
+    border-color: blue;
+}
+.formColum1 div select{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+.acent{
+    color: red;
+}
+.generalForm1{
+    display: block;
+    text-align: center;
+}
+.tituloForm{
+    font-size: 1.5em;
+    width: 100%;
+    margin-left: 200px;
+}
+.center{
+    margin-left: 400px;
+}
+@media (max-width: 1050px){
+    .center{
+    margin-left: 0px;
+}
+}
+
+
+</style>
+<body>
+    <header>
+        <div class="headertop">
+            <div class="lineHeaderTop">
+                <img src="./img/correo-electronico.png" alt="contacto">
+                <a href="#">Contacto</a>
+            </div>
+            <div class="lineHeaderTop">
+                <img src="./img/maletin.png" alt="intranet">
+                <a href="#">Intranet</a>
+            </div>
+            <div class="lineHeaderTop">
+                <img src="./img/usuario.png" alt="identificate">
+                <a href="#">Identificate</a>
+            </div>
+            <div class="lineHeaderTop">
+                <img src="./img/periodico.png" alt="sala de prensa">
+                <a href="#">Sala de prensa</a>
+            </div>
+        </div>
+        <div class="headerbottom">
+            <div>
+                <a href="./Inicio.html"><img src="./img/logo-cabecera.png" alt="logo-principal"></a>
+            </div>
+            <div class="menu">
+                <a href="./Que-hacemos.html">Que hacemos</a>
+                <a href="#">Colaborado</a>
+                <a href="#">Voluntariado</a>
+                <a href="#">Fórmate</a>
+            </div>
+            <div>
+                <img src="./img/buscar.png" alt="busqueda" class="search">
+                <a href="#" class="button1">Haz voluntariado</a>
+                <a href="#" class="button2">Hazte socio/a</a>
+            </div>
+        </div>
+    </header>
+    <div class="socialSide">
+        <p>Siguenos</p>
+        <hr class="socialLine">
+        <a href="#"><img src="./img/gorjeo.png" alt="twitter"></a>
+        <a href="#"><img src="./img/facebook.png" alt="facebook"></a>
+        <a href="#"><img src="./img/youtube.png" alt="youtube"></a>
+        <a href="#"><img src="./img/instagram.png" alt=""></a>
+        <a href="#"><img src="./img/flickr.png" alt=""></a>
+    </div>
+    <main>
+        <div class="titulo1">
+            <h3 class="titulo">Alta voluntariado</h3>
+            <div class="barra"></div>
+        </div>
+        <div class="form1">
+            <h4 class="tituloForm">Necesitaremos los datos del tutor legal</h4>
+            <form action="get" method="get" class="generalForm1">
+                <div class="formColum1">
+                    <div>
+                        <label >Nombre<span class ="acent">*</span></label>
+                        <br>
+                        <input type="text" name="Nombre" required>
+                    </div>
+    
+                    <div>
+                        <label>Primer Apellido<span class ="acent">*</span></label>
+                        <br>
+                        <input type="text" name="Primer epellido" required>
+                    </div>
+    
+                    <div>
+                        <label>Segundo apellido<span class ="acent">*</span></label>
+                        <br>
+                        <input type="text" name="Segundo epellido" required>
+                    </div>
+                    
+                    <div>
+                        <label>Fecha de nacimiento<span class ="acent">*</span></label>
+                        <br>
+                        <input type="date" name="Fecha nacimiento" required>
+                    </div>
+    
+                    <div>
+                        <label>Tipo de documento<span class ="acent">*</span></label>
+                        <br>
+                        <select name="Tipo-de-documento" required>
+                            <option value="1">Seleccione tipo de documento</option>
+                            <option value="2">Número Identificación Fiscal</option>
+                            <option value="3">Número Identificación Extranjeros</option>
+                            <option value="4">Pasaporte</option>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <label>Número de documento<span class ="acent">*</span></label>
+                        <br>
+                        <input type="text" name="Número documento" required>
+                    </div>
+    
+                    <div>
+                        <label>Sexo<span class ="acent">*</span></label>
+                        <br>
+                        <select name="sexo" required>
+                            <option value="1">Seleccione el sexo</option>
+                            <option value="2">Hombre</option>
+                            <option value="3">Mujer</option>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <label>Teléfono de contacto<span class ="acent">*</span></label>
+                        <br>
+                        <input type="tel" name="Teléfono" required>
+                    </div>
+    
+                    <div>
+                        <label>Correo electrónico<span class ="acent">*</span></label>
+                        <br>
+                        <input type="email" name="Email" required>
+                    </div>
+    
+                    <div>
+                        <label>Repite Correo electrónico<span class ="acent">*</span></label>
+                        <br>
+                        <input type="email" name="Email" required>
+    
+                    </div>
+                    <div>
+                        <label>Tipo de relación<span class ="acent">*</span></label>
+                        <br>
+                        <select name="Tipo-de-relacion" required>
+                            <option value="1">Tipo de relación</option>
+                            <option value="2">Tutor jurídico</option>
+                            <option value="3">Padre</option>
+                            <option value="4">Madre</option>
+                            <option value="5">Familiar</option>
+                            <option value="6">Padrino/Madrina</option>
+                            <option value="7">Administración</option>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <label>Código postal<span class ="acent">*</span></label>
+                        <br>
+                        <input type="number" name="Código postal" required>
+                    </div>
+    
+                    <div class="center">
+                        <label>Tipo de entidad<span class ="acent">*</span></label>
+                        <br>
+                        <select name="Tipe-de-identidad" required>
+                            <option value="1">Persona física</option>
+                            <option value="2">Empresa</option>
+                        </select>
+                    </div>
+                </div>
+                
+
+            </form>
+
+        </div>
+
+    </main>
+    <footer>
+        <section>
+            <div class="imagen">
+                <img alt="Cruz Roja" src="./img/logopequeno.png" width="115" height="30">
+            </div>
+            <div class="div1">
+                <h1>Conócenos</h1>
+                <p>Sobre Cruz Roja</p>
+                <p>Nuestra historia</p>
+                <p>Transparencia</p>
+                <p>Calidad</p>
+                <p>Centro de documentación</p>
+            </div>
+            <div class="div1">
+                <h1>Actualidad</h1>
+                <p>AHORA</p>
+                <p>Sala de prensa</p>
+                <p>Campañas</p>
+                <p>Cruz Roja en YouTube</p>
+                <p>Revista</p>
+                </p>
+            </div>
+            <div class="div1">
+                <h1>Nuestras Webs</h1>
+                <p>Cruz Roja TE ACOMPAÑA</p>
+                <p>La Fuerza V</p>
+                <p>Cruz Roja Juventud</p>
+                <p>Orientación empleo</p>
+                <p>Migrar.org</p>
+                <p>Info Prevención VIH ITS TBC</p>
+                <p>Multicanal SerCuidadorA</p>
+                <p>F. Tecnologías Sociales</p>
+                <p>Centros de Medios de Vida</p>
+            </div>
+            <div class="div2">
+                <ul>
+                    <li><img alt="Perfil" src="./img/perfil.JPG" width="20" height="20"> Intranet</li>
+                    <br>
+                    <li><img alt="Tienda" src="./img/carrito.JPG" width="20" height="20"> Tienda Online</li>
+                    <br>
+                    <li><img alt="Denuncias" src="./img/megafono.JPG" width="20" height="20"> Canal denuncias</li>
+                    <br>
+                    <li><img alt="Licitaciones" src="./img/mazo.JPG" width="20" height="20"> Licitaciones</li>
+                    <br>
+                    <li><img alt="Trabajar" src="./img/maletin.JPG" width="20" height="20"> Trabaja con Cruz Roja</li>
+                </ul>
+                <div class="RRSS">
+                    <p>Siguenos</p>
+                    <img alt="Twitter" src="./img/twittergris.JPG" width="25" height="25">
+                    <img alt="Facebook" src="./img/facebookgris.JPG" width="25" height="25">
+                    <img alt="YouTube" src="./img/youtubegris.JPG" width="25" height="25">
+                    <img alt="Instagram" src="./img/instagramgris.JPG" width="25" height="25">
+                    <img alt="Flirck" src="./img/flickrgris.JPG" width="25" height="25">
+                </div>
+            </div>
+        </section>
+        <section2 class="section2">
+            <p>© Cruz Roja Española 2023. Todos los derechos reservados <a href="https://www2.cruzroja.es/aviso-legal"
+                    target="_blank">aquí</a> para consultar los ASPECTOS LEGALES</p>
+            <p><a href="https://www2.cruzroja.es/agencia-de-colocacion" target="_blank">Agencia de Colocación autorizada
+                    con el número 9900000098</a></p>
+            <ul>
+                <li class="inline">
+                    <a title="Contacto" href="https://www2.cruzroja.es/contacto">Contacto</a>
+                </li>
+                <li class="inline">
+                    <a title="Política de privacidad" href="https://www2.cruzroja.es/politica-de-privacidad">Política de
+                        privacidad</a>
+                </li>
+                <li class="inline">
+                    <a title="Política de Cookies" href="https://www2.cruzroja.es/politica-de-cookies">Política de
+                        Cookies</a>
+                </li>
+            </ul>
+        </section2>
+    </footer>
+</body>
+
+</html>
