@@ -730,6 +730,46 @@ main{
 /*PARTE DE ALBERTO G*/
 /*PARTE DE ALBERTO C*/
 /*PARTE DE ARIEL*/
+.bodyFormacion{
+    margin: 0 200px 0;
+    font-family: Montserrat,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.formFormacion{
+    background-color: gainsboro;
+    width: auto;
+    height: 500px;
+}
+.formFormacion2{
+    position: relative;
+    display: flex;
+    top: 10%;
+    left: 10%;
+    flex-wrap: wrap;
+
+}
+.formFormacion2 div{
+    margin: 0 50px 50px;
+}
+.formFormacion2 div label{
+    font-weight: bold;
+}
+.formFormacion2 div input{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+.buttonFormacion{
+    border: 0.125rem solid #e20613;
+    margin: left;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+}
+.buttonFormacion :hover{
+    background-color: red;
+    border: 0.125rem solid red;
+    animation: changeColor2 1s;
+}
 /*PARTE DE DAVID*/
 /*PARTE DE MOHAMED*/
 /*PARTE DE VICTOR*/
